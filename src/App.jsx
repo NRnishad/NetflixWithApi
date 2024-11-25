@@ -9,6 +9,6 @@ function App() {
       <Banner></Banner>
     </div>
   );
-}
+} 
 
 export default App;
