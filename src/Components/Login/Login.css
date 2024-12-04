@@ -1,0 +1,123 @@
+
+ html, div, form, input, button, p, h2, label, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.login-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+   color: white;
+   background:url("https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+
+.login-background {
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/48dc27ad-dfb0-4af7-bae3-3cd9c4c99165/2459fd5d-3da7-4e7f-a2f4-4296317d1e93/IN-en-20230821-popsignuptwoweeks-perspective_alpha_website_large.jpg")
+    center center / cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 60px;
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  background: #333;
+  color: white;
+  border-radius: 4px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  background: #e50914;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background: #f40612;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.remember-me {
+  margin-right: 5px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+  .login-form {
+    width: 95%;
+  }
+
+  .form-title {
+    font-size: 20px;
+  }
+}
